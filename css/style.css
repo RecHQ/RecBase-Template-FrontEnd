@@ -47,6 +47,242 @@ body {
 }
 
 .navbar-brand {
+    padding: 3px 15px 3px 15px;
+    height: 35px;
+}   
+
+.navbar-default .navbar-nav>li>a {
+    color: #fff;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+    color: #fff;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+#j_section_1 {
+    background-image: url(../gfx/j_section-1.jpg);
+    background-position: center;
+    height: 453px;
+    width: initial;
+}
+
+#j_section_2 {
+    height: auto;
+    width: initial;
+    margin-top: -198px;
+    margin-left: 355px;
+    margin-right: 370px;
+}
+
+#main-content {
+    background-color: #fff;
+}
+
+#j_left_part {
+    background-color: #fff;
+    float: left;
+    width: 880px;
+    padding: 15px 20px 0px 15px;
+}
+
+#j-img-l {
+    padding-left: 15px;
+    float: left;
+    margin: 0px 60px 50px 0px;
+}
+
+#j-links {
+    margin-top: -200px;
+    float: right;
+}
+
+#j-sub-pages {
+    font-family: 'WorkSans';
+    width: 215px;
+    display: -webkit-box;
+    padding-top: 90px;
+    font-size: 16px;
+}
+
+.sub-bar {
+    float: left;
+    margin: 0px 20px 50px 6px;
+}
+
+#j-sub-pages>a {
+    color: #000;
+}
+
+#j-sub-pages>a:hover {
+    color: #000;
+    text-decoration: none;
+}
+
+#j-leftsub {
+    margin: 10px 35px 0px 9px;
+}
+
+#j-leftsub-r {
+    margin: 10px 0 0 0;
+}
+
+.main-links {
+    margin: 0 0 0 10px;
+}
+
+#j_right_part {
+    background-color: #f8f8f8;
+    float: right;
+    padding: 20px 20px 20px 20px;
+}
+
+hr {
+    min-width: 115px;
+    margin-top: 10px;
+    margin-bottom: 9px;
+}
+
+#j-l-p {
+    float: left;
+}
+
+.j-left-p {
+    text-align: left;
+}
+
+#j-r-p {
+    float: right;
+}
+
+.j-right-p {
+    text-align: left;
+    font-family: 'WorkSans';
+}
+
+#j-icons {
+    float: right;
+    margin-right: 26px;
+}
+
+#j-icons-img {
+    margin: 10px 10px 10px 0;
+}
+
+#j-img-s {
+    padding: 10px;
+    float: left;
+}
+
+#j_section_3 {
+    height: auto;
+    margin-left: 355px;
+    margin-right: 658px;
+    margin-top: -60px;
+}
+
+.j-list {
+    background-color: #fff;
+    margin: 20px 10px 0 0;
+    height: 154px;
+    padding: 15px 20px 20px 15px;
+    margin-bottom: 20px;
+}
+
+#j-job-title {
+    margin-top: 6px;
+    font-family: 'Aileron-B';
+    float: left;
+    font-size: 24px;
+}
+
+.j-list>a {
+    color: #000;
+}
+
+.j-list>a:hover {
+    color: #000;
+    text-decoration: none;
+}
+
+#j-p-part {
+    display: -webkit-box;
+    float: left;
+}
+
+.j-p-details {
+    font-size: 18px;
+    margin-right: 30px
+}
+
+#j-und-p {
+    font-size: 18px;
+    margin-right: 174px;
+    float: left;
+    margin-left: 0px;
+}
+
+#footer {
+    font-size: 14px;
+    background-color: #fff;
+    height: 230px;
+    padding-top: 35px;
+    line-height: 1.5em;
+    width: initial;
+}
+
+#footer a {
+    color: #777;
+    height: 220px;
+}
+
+#footer img {
+    padding-left: 18px;
+    padding-bottom: 30px;
+}
+
+#fotter_options {
+    font-size: 10px;
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+#footer_cr {
+    font-size: 10px;
+    padding-left: 30px;
+}
+
+@media (min-width: 768px){
+
+
+
+
+
+
+
+}
+
+
+.container {
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+.navbar-default {
+    background-color: #3c3c3c;
+    min-height: 35px;
+    border: none;
+}
+
+.navbar-nav>li>a {
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+.navbar-brand {
     padding: 3px 15px 3px 0px;
     height: 35px;
 }   
@@ -251,14 +487,4 @@ hr {
 #footer_cr {
     font-size: 10px;
     padding-left: 30px;
-}
-
-@media (min-width: 768px){
-
-
-
-
-
-
-
 }
