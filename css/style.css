@@ -59,7 +59,7 @@ body {
 .navbar-brand {
     padding: 3px 15px 3px 15px;
     height: 35px;
-}   
+}
 
 .navbar-default .navbar-nav>li>a {
     color: #fff;
@@ -301,7 +301,7 @@ hr {
     border-radius: 6px;
     display: block;
     margin: auto;
-    width: 230px;   
+    width: 230px;
 }
 
 .btn-primary {
@@ -494,7 +494,7 @@ hr {
         border-radius: 6px;
         display: block;
         margin: auto;
-        width: 350px;   
+        width: 350px;
     }
 
     .btn-primary {
@@ -698,8 +698,8 @@ hr {
     }
 
     #j_left_part {
-        height: auto;
-        width: auto;
+        height: 196px;
+        width: 880px;
         padding: 21px 21px 21px 15px;
     }
 
@@ -739,13 +739,12 @@ hr {
     }
 
     #j_right_part {
-        display: -webkit-box;
-        margin-bottom: 0px;
-        margin-top: 0px;
-        margin-left: 0px;
-        float: none;
-        width: auto;
-        padding: 20px 20px 20px 20px;
+      display: -webkit-box;
+      margin-bottom: 0px;
+      margin-top: -196px;
+      margin-left: 0px;
+      float: right;
+      padding: 20px 20px 20px 20px;
     }
 
     #d_right_part {
@@ -782,10 +781,10 @@ hr {
     }
 
     #j-icons {
-        float: none;
+        float: right;
         display: -webkit-box;
-        margin-top: 10px;
-        margin-right: 26px;
+        margin-top: 56px;
+        margin-right: -240px;
     }
 
     #j-icons-img {
@@ -807,7 +806,7 @@ hr {
     .j-list {
         margin: 80px 0px -60px 0px;
         height: 154px;
-        width: auto;
+        width: 880px;
         padding: 15px 0px 0px 15px;
     }
 
@@ -855,7 +854,7 @@ hr {
         border-radius: 6px;
         display: block;
         margin: auto;
-        width: 350px;   
+        width: 350px;
     }
 
     .btn-primary {
@@ -883,17 +882,16 @@ hr {
         border-radius: 4px;
         font-size: 16px;
         background-color: white;
-/*        background-image: url('../gfx/searchicon.png');*/
         background-position: 10px 10px;
         background-repeat: no-repeat;
-        padding: 12px 20px 12px 40px;
+        padding: 12px 20px 12px 12px;
     }
 
     #searchicon {
         transform: rotate(90deg);
         float: right;
         margin-top: -34px;
-        margin-right: 12px; 
+        margin-right: 12px;
     }
 
 }
