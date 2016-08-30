@@ -741,9 +741,17 @@ hr {
 
     #j_right_part {
         display: -webkit-box;
-        margin-bottom: 0px;
-        margin-top: -250px;
-        margin-left: 0px;
+        margin-top: -249px;
+        margin-right: 0px;
+        float: right;
+        padding: 20px 20px 20px 20px;
+    }
+
+    #a_right_part {
+        display: -webkit-box;
+        background-color: #f8f8f8;
+        margin-top: -176px;
+        margin-right: -299px;
         float: right;
         padding: 20px 20px 20px 20px;
     }
@@ -782,6 +790,8 @@ hr {
     }
 
     #j-icons {
+        margin-top: 10px;
+        margin-right: 26px;
         float: right;
         display: -webkit-box;
     }
@@ -798,7 +808,7 @@ hr {
 
     #j_section_3 {
         height: auto;
-        margin-top: -176px;
+        margin-top: -227px;
         margin-bottom: 47px;
     }
 
