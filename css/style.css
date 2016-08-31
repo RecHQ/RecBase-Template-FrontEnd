@@ -789,7 +789,7 @@ input[type=text] {
     #j-sub-pages {
         width: 215px;
         display: -webkit-box;
-        padding-top: 100px;
+        padding-top: 91px;
         font-size: 18px;
     }
 
@@ -922,8 +922,10 @@ input[type=text] {
     }
 
     #a-details-content {
-        padding: 0 10px 10px 0px;
+        background-color: #fff;
+        padding: 0 10px 10px 15px;
         font-size: 18px;
+        width: 880px;
         float: left;
         text-align: left;
     }
@@ -935,7 +937,7 @@ input[type=text] {
     }
 
     .a-sub-details {
-        width: 1115px;
+        width: 839px;
         margin-bottom: 30px;
     }
 
