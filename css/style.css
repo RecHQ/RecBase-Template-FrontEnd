@@ -110,9 +110,11 @@ a:hover {
 #j-sub-pages {
     font-family: 'WorkSans';
     width: 215px;
-    display: -webkit-box;
+    display: block;
     padding-top: 50px;
-    font-size: 16px;
+    font-size: 14px;
+    margin-left: 70px;
+    text-align: center;
 }
 
 .sub-bar {
@@ -132,7 +134,7 @@ a:hover {
 
 #j-leftsub {
     font-size: 14px;
-    margin: 10px 35px 0px 0px;
+    margin: 10px 0px 0px 12px;
 }
 
 #j-leftsub-r {
@@ -142,7 +144,7 @@ a:hover {
 
 #j-leftsub-l {
     width: 261px;
-    margin: 9px 0 0 -19px;
+    margin: 10px 0 0 -22px;
 }
 
 .main-links {
@@ -405,22 +407,22 @@ input[type=text] {
     .sub-bar {
         display: -webkit-box;
         float: left;
-        margin: 0px 35px 50px 0px;
+        margin: 0px 54px 50px -49px;
     }
 
     #j-leftsub {
         font-size: 17px;
-        margin: 10px 35px 0px 0px;
+        margin: 10px 35px 0px -48px;
     }
 
     #j-leftsub-r {
         font-size: 17px;
-        margin: 10px 0 0 0;
+        margin: 10px 0px 0 -29px;
     }
 
     #j-leftsub-l {
         width: 261px;
-        margin: 9px 0 0 -19px;
+        margin: 10px 0 0 -36px;
     }
 
     .main-links {
@@ -628,12 +630,12 @@ input[type=text] {
     }
 
     #j-leftsub-r {
-        font-size: 17px;        
+        font-size: 17px;
         margin: 10px 0 0 0;
     }
 
     #j-leftsub-l {
-        font-size: 17px;        
+        font-size: 17px;
         width: 261px;
         margin: 9px 0 0 2px;
     }
@@ -727,7 +729,7 @@ input[type=text] {
     }
 
     #a-details-content {
-        background-color: #fff;        
+        background-color: #fff;
         padding: 20px 10px 10px 15px;
         font-size: 18px;
         float: left;
