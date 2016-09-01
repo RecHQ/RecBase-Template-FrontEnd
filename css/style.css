@@ -104,19 +104,31 @@ a:hover {
 }
 
 #j-links {
+    display: none;
     float: right;
 }
 
 #j-sub-pages {
     font-family: 'WorkSans';
     display: block;
-    padding-top: 50px;
     font-size: 14px;
     margin-left: 70px;
     text-align: center;
 }
 
 .sub-bar {
+    display: none;
+    float: left;
+    margin: 0px 20px 50px 6px;
+}
+
+.a-sub-bar {
+    display: none;
+    float: left;
+    margin: 0px 20px 50px 6px;
+}
+
+.al-sub-bar {
     display: none;
     float: left;
     margin: 0px 20px 50px 6px;
@@ -420,6 +432,18 @@ input[type=text] {
         margin: -85px 0px 0px 178px;
     }
 
+    .a-sub-bar {
+        display: -webkit-box;
+        float: left;
+        margin: -51px 0px 0px 177px;
+    }
+
+    .al-sub-bar {
+        display: -webkit-box;
+        float: left;
+        margin: -10px 0px 0px 126px;
+    }
+
     .sub-bar-r {
         display: -webkit-box;
         float: left;
@@ -629,6 +653,7 @@ input[type=text] {
     }
 
     #j-links {
+        display: -webkit-box;
         float: right;
     }
 
@@ -640,6 +665,18 @@ input[type=text] {
     }
 
     .sub-bar {
+        display: -webkit-box;
+        float: left;
+        margin: 0px 41px 50px 2px;
+    }
+
+    .a-sub-bar {
+        display: -webkit-box;
+        float: left;
+        margin: 0px 41px 50px 2px;
+    }
+
+    .al-sub-bar {
         display: -webkit-box;
         float: left;
         margin: 0px 41px 50px 2px;
@@ -850,6 +887,18 @@ input[type=text] {
     }
 
     .sub-bar {
+        display: -webkit-box;
+        float: left;
+        margin: 0px 41px 50px -20px;
+    }
+
+    .a-sub-bar {
+        display: -webkit-box;
+        float: left;
+        margin: 0px 41px 50px -20px;
+    }
+
+    .al-sub-bar {
         display: -webkit-box;
         float: left;
         margin: 0px 41px 50px -20px;
