@@ -376,7 +376,14 @@ input[type=text] {
 }
 
 #d-icons {
-    display: none; 
+    display: none;
+}
+
+#d-h1t {
+    display: inline-block;
+    margin-top: 99px;
+    margin-left: -138px;
+    margin-right: -270px;
 }
 
 @media (min-width: 768px){
@@ -599,6 +606,12 @@ input[type=text] {
         margin-right: 12px;
     }
 
+    #d-h1t {
+        display: inline-block;
+        margin-top: 99px;
+        margin-left: -138px;
+        margin-right: -270px;
+    }
 }
 
 @media (min-width: 992px){
@@ -809,6 +822,12 @@ input[type=text] {
         margin-right: 12px;
     }
 
+    #d-h1t {
+        display: inline-block;
+        margin-top: 99px;
+        margin-left: -138px;
+        margin-right: -270px;
+    }
 }
 
 @media (min-width: 1200px){
