@@ -311,7 +311,7 @@ hr {
 }
 
 .d-title-details {
-    margin-top: 31px;
+    margin-top: -47px;
     font-family: 'Aileron-B';
 }
 
@@ -1072,7 +1072,7 @@ input[type=text] {
         margin-right: 305px;
     }
 
-    #d-h1 {
+    #d-h1t {
         display: inline-block;
         margin-top: 99px;
         margin-left: -138px;
