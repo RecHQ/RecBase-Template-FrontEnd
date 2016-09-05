@@ -380,10 +380,7 @@ input[type=text] {
 }
 
 #d-h1t {
-    display: inline-block;
-    margin-top: 99px;
-    margin-left: -138px;
-    margin-right: -270px;
+    margin-bottom: 100px;
 }
 
 @media (min-width: 768px){
@@ -549,7 +546,8 @@ input[type=text] {
     }
 
     #a-details-content {
-        padding: 20px 10px 10px 15px;
+        padding: 51px 10px 10px 15px;
+        margin-top: -29px;
         font-size: 18px;
         float: left;
         text-align: left;
@@ -609,8 +607,8 @@ input[type=text] {
     #d-h1t {
         display: inline-block;
         margin-top: 99px;
-        margin-left: -138px;
-        margin-right: -270px;
+        margin-left: -255px;
+        margin-right: 0px;
     }
 }
 
@@ -777,8 +775,8 @@ input[type=text] {
 
     #a-details-content {
         background-color: #fff;
-        padding: 20px 10px 10px 15px;
-        font-size: 18px;
+        padding: 51px 10px 10px 15px;
+        margin-top: -29px;
         float: left;
         text-align: left;
     }
