@@ -299,6 +299,14 @@ hr {
     text-align: left;
 }
 
+#d-details-content {
+    background-color: #fff;
+    padding: 20px 10px 10px 15px;
+    font-size: 18px;
+    float: left;
+    text-align: left;
+}
+
 #a_section_2 {
     background-color: #fff;
     height: auto;
@@ -546,6 +554,14 @@ input[type=text] {
     }
 
     #a-details-content {
+        padding: 0px 10px 10px 15px;
+        margin-top: -29px;
+        font-size: 18px;
+        float: left;
+        text-align: left;
+    }
+
+    #d-details-content {
         padding: 51px 10px 10px 15px;
         margin-top: -29px;
         font-size: 18px;
@@ -774,6 +790,14 @@ input[type=text] {
     }
 
     #a-details-content {
+        background-color: #fff;
+        padding: 0px 10px 10px 15px;
+        margin-top: -29px;
+        float: left;
+        text-align: left;
+    }
+
+    #d-details-content {
         background-color: #fff;
         padding: 51px 10px 10px 15px;
         margin-top: -29px;
@@ -1024,6 +1048,15 @@ input[type=text] {
     }
 
     #a-details-content {
+        background-color: #fff;
+        padding: 0 10px 10px 15px;
+        font-size: 18px;
+        width: 880px;
+        float: none;
+        text-align: left;
+    }
+
+    #d-details-content {
         background-color: #fff;
         padding: 0 10px 10px 15px;
         font-size: 18px;
