@@ -316,6 +316,7 @@ hr {
     font-size: 18px;
     float: left;
     text-align: left;
+    margin-top: 180px;
 }
 
 #a_section_2 {
@@ -358,7 +359,8 @@ hr {
 
 #d_section_3 {
     height: auto;
-    margin-bottom: 45px;
+    margin-top: -50px;
+    margin-bottom: 65px;
 }
 
 #d-h1 {
@@ -416,10 +418,11 @@ input[type=text] {
 
     #j_section_2 {
         height: auto;
-        margin-top: -198px;
+        margin-top: -190px;
     }
 
     #j_left_part {
+        margin-top: 337px;
         height: 192px;
         width: auto;
         padding: 21px 21px 21px 15px;
@@ -483,11 +486,8 @@ input[type=text] {
     }
 
     #d_right_part {
-        background-color: #fff;
+        margin: -527px 0px 0px;
         display: -webkit-box;
-        margin-bottom: 0px;
-        margin-top: 0px;
-        margin-left: 0px;
         float: none;
         width: auto;
         padding: 20px 20px 20px 20px;
@@ -504,12 +504,18 @@ input[type=text] {
         padding: 20px 20px 20px 20px;
     }
 
+    .d-title-details {
+        margin-top: -25px;
+        font-family: 'Aileron-B';
+    }
+
     hr {
         margin-top: 10px;
         margin-bottom: 10px;
     }
 
     #j-l-p {
+        width: 150px;
         float: left;
     }
 
@@ -608,6 +614,7 @@ input[type=text] {
     }
 
     #d_section_3 {
+        margin-top: -20px;
         height: auto;
         margin-bottom: 45px;
     }
@@ -733,14 +740,7 @@ input[type=text] {
     }
 
     #d_right_part {
-        background-color: #fff;
-        display: -webkit-box;
-        margin-bottom: 0px;
-        margin-top: 0px;
-        margin-left: 0px;
-        float: none;
-        width: auto;
-        padding: 20px 20px 20px 20px;
+        margin: -527px 0px 0px;
     }
 
     #a_right_part {
@@ -831,7 +831,7 @@ input[type=text] {
     #d-details-content {
         background-color: #fff;
         padding: 51px 10px 10px 15px;
-        margin-top: -29px;
+        margin-top: 58px;
         float: left;
         text-align: left;
     }
@@ -899,6 +899,7 @@ input[type=text] {
     }
 
     #j_left_part {
+        margin-top: 0px;
         height: 273px;
         width: 880px;
         padding: 21px 21px 21px 15px;
@@ -976,14 +977,12 @@ input[type=text] {
     }
 
     #d_right_part {
-        background-color: #fff;
-        display: -webkit-box;
+        margin-right: -4px;
         margin-bottom: 0px;
-        margin-top: 0px;
+        margin-top: -273px;
         margin-left: 0px;
-        float: none;
-        width: auto;
-        padding: 20px 20px 20px 20px;
+        float: right;
+        width: 276px;
     }
 
     hr {
@@ -994,8 +993,8 @@ input[type=text] {
     }
 
     #j-l-p {
+        width: auto;
         float: left;
-        margin-right: 20px;
     }
 
     .j-left-p {
@@ -1025,8 +1024,8 @@ input[type=text] {
     }
 
     #d-icons {
-        margin-top: 32px;
-        margin-right: 26px;
+        margin-right: -248px;
+        margin-top: 20px;
         float: right;
         display: -webkit-box;
     }
