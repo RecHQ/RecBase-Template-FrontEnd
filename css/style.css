@@ -75,6 +75,11 @@ a:hover {
     text-decoration: none;
 }
 
+a:focus {
+    color: #002432;
+    text-decoration: none;
+}
+
 #j_section_1 {
     background-image: url(../gfx/j_section-1.jpg);
     background-position: center;
@@ -378,7 +383,7 @@ hr {
 
 input[type=text] {
     opacity: 0.7;
-    width: 398px;
+    width: 100%;
     border: none;
     border-radius: 4px;
     font-size: 16px;
@@ -389,7 +394,6 @@ input[type=text] {
 }
 
 #searchicon {
-    display: none;
     float: right;
     margin-top: -34px;
     margin-right: 12px;
@@ -831,7 +835,7 @@ input[type=text] {
     #d-details-content {
         background-color: #fff;
         padding: 51px 10px 10px 15px;
-        margin-top: 58px;
+        margin-top: -29px;
         float: left;
         text-align: left;
     }
@@ -1115,6 +1119,10 @@ input[type=text] {
     .btn-primary {
         border: none;
         margin-bottom: 20px;
+    }
+
+    .d-title-details {
+        margin-top: 78px;
     }
 
     #d_section_3 {
