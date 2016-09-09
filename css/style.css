@@ -38,6 +38,7 @@ body {
 
 .navbar-nav {
     margin: 0px;
+    background-color: #3c3c3c;
 }
 
 .nav>li {
@@ -46,7 +47,7 @@ body {
 }
 
 .navbar-default {
-    background-color: #3c3c3c;
+    background-color: transparent;
     min-height: 35px;
     border: none;
 }
@@ -70,6 +71,36 @@ body {
     color: #fff;
 }
 
+.navbar-default .navbar-toggle {
+  border: none;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #000;
+}
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+  background-color: #3c3c3c;
+}
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border: none;
+}
+
+.navbar-toggle {
+    float: left;
+    margin-left: 15px;
+}
+
+.navbar-toggle .icon-bar {
+    width: 30px;
+    height: 6px;
+}
+
+.navbar-header {
+  background-color: #3c3c3c;
+}
+
 a:hover {
     color: #002432;
     text-decoration: none;
@@ -85,6 +116,7 @@ a:focus {
     background-position: center;
     height: 453px;
     width: initial;
+    margin-top: -20px;
 }
 
 #j_section_2 {
@@ -245,6 +277,12 @@ hr {
 }
 
 #j_section_3 {
+    height: auto;
+    margin-top: -60px;
+    margin-bottom: 67px;
+}
+
+#l_section_3 {
     height: auto;
     margin-top: -60px;
     margin-bottom: 67px;
@@ -427,6 +465,10 @@ input[type=text] {
 
 @media (min-width: 768px){
 
+    .navbar-default {
+        background-color: #3c3c3c;
+    }
+
     .navbar-default .navbar-nav>li>a {
         padding-top: 3px;
     }
@@ -588,6 +630,12 @@ input[type=text] {
     }
 
     #j_section_3 {
+        height: auto;
+        margin-top: -79px;
+        margin-bottom: 47px;
+    }
+
+    #l_section_3 {
         height: auto;
         margin-top: -79px;
         margin-bottom: 47px;
@@ -848,6 +896,12 @@ input[type=text] {
     }
 
     #j_section_3 {
+        height: auto;
+        margin-top: -79px;
+        margin-bottom: 47px;
+    }
+
+    #l_section_3 {
         height: auto;
         margin-top: -79px;
         margin-bottom: 47px;
@@ -1121,6 +1175,12 @@ input[type=text] {
     #j_section_3 {
         height: auto;
         margin-top: -227px;
+        margin-bottom: 47px;
+    }
+
+    #l_section_3 {
+        height: auto;
+        margin-top: -172px;
         margin-bottom: 47px;
     }
 
