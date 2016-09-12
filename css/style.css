@@ -64,6 +64,7 @@ body {
 
 .navbar-default .navbar-nav>li>a {
     color: #fff;
+    margin-right: 68px;
 }
 
 .navbar-default .navbar-nav>li>a:hover {
@@ -80,16 +81,22 @@ body {
 }
 
 .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
-  background-color: #3c3c3c;
+  background-color: transparent;
 }
 
 .navbar-default .navbar-collapse, .navbar-default .navbar-form {
     border: none;
+    margin-top: -60px;
+    margin-right: -10px;
+    margin-left: -10px;
 }
 
 .navbar-toggle {
     float: left;
     margin-left: 15px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
 }
 
 .navbar-toggle .icon-bar {
@@ -98,7 +105,7 @@ body {
 }
 
 .navbar-header {
-  background-color: #3c3c3c;
+  background-color: transparent;
 }
 
 a:hover {
@@ -109,6 +116,34 @@ a:hover {
 a:focus {
     color: #002432;
     text-decoration: none;
+}
+
+.small-icon {
+    display: none;
+}
+
+.big-icon {
+    margin-left: -236px;
+}
+
+.menu-position {
+    display: block;
+    color: #000;
+    background-color: #fff;
+    width: 100%;
+    text-align: left;
+    padding: 5px 8px 5px;
+    font-family: 'Aileron-B';
+}
+
+.menu-position-g {
+    display: block;
+    color: #000;
+    background-color: #f8f8f8;
+    width: 100%;
+    text-align: left;
+    padding: 5px 8px 5px;
+    font-family: 'Aileron-B';
 }
 
 #j_section_1 {
@@ -479,6 +514,14 @@ input[type=text] {
     .nav>li>a {
         padding: 0px;
     }
+
+    .small-icon {
+        display: -webkit-box;
+    }
+
+    .big-icon {
+        display: none;
+    }   
 
     #j_section_2 {
         height: auto;
@@ -998,6 +1041,24 @@ input[type=text] {
 
     .container {
         height: auto;
+    }
+ 
+    .menu-position {
+        display: block;
+        color: #000;
+        background-color: #fff;
+        text-align: left;
+        padding: 5px 8px 5px;
+        font-family: 'Aileron-B';
+    }
+
+    .menu-position-g {
+        display: block;
+        color: #000;
+        background-color: #f8f8f8;
+        text-align: left;
+        padding: 5px 8px 5px;
+        font-family: 'Aileron-B';
     }
 
     .nav>li {
