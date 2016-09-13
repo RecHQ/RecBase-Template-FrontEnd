@@ -521,7 +521,7 @@ input[type=text] {
 
     .big-icon {
         display: none;
-    }   
+    }
 
     #j_section_2 {
         height: auto;
@@ -1042,22 +1042,36 @@ input[type=text] {
     .container {
         height: auto;
     }
- 
-    .menu-position {
+
+    #menu-position-1 {
         display: block;
-        color: #000;
-        background-color: #fff;
         text-align: left;
         padding: 5px 8px 5px;
+        width: auto;
         font-family: 'Aileron-B';
     }
 
-    .menu-position-g {
+    #menu-position-2 {
         display: block;
-        color: #000;
-        background-color: #f8f8f8;
         text-align: left;
         padding: 5px 8px 5px;
+        width: auto;
+        font-family: 'Aileron-B';
+    }
+
+    #menu-position-3 {
+        display: block;
+        text-align: left;
+        padding: 5px 8px 5px;
+        width: auto;
+        font-family: 'Aileron-B';
+    }
+
+    #menu-position-4 {
+        display: block;
+        text-align: left;
+        padding: 5px 8px 5px;
+        width: auto;
         font-family: 'Aileron-B';
     }
 
