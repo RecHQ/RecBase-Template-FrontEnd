@@ -19,6 +19,13 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'OpenSans';
+    src: url('../fonts/OpenSans-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
 body {
   	min-height: 1000px;
   	padding-top: 20px;
@@ -506,6 +513,58 @@ input[type=text] {
 
     .navbar-default .navbar-nav>li>a {
         padding-top: 3px;
+        margin-left: -800px;
+        margin-right: 430px;
+    }
+
+    #menu-position-1 {
+        display: block;
+        text-align: left;
+        padding: 5px 8px 5px;
+        width: auto;
+        margin-right: 370px;
+        margin-top: -33px;
+        margin-left: 911px;
+        font-family: 'Aileron';
+    }
+
+    #menu-position-2 {
+        display: block;
+        text-align: left;
+        padding: 5px 8px 5px;
+        width: auto;
+        font-family: 'Aileron';
+        margin-top: -33px;
+        margin-right: 195px;
+    }
+
+    #menu-position-3 {
+        display: block;
+        text-align: left;
+        padding: 5px 8px 5px;
+        width: auto;
+        font-family: 'Aileron';
+        margin-top: -33px;
+        margin-right: 14px;
+    }
+
+    #menu-position-4 {
+        display: block;
+        text-align: left;
+        padding: 5px 8px 5px;
+        width: auto;
+        font-family: 'Aileron';
+        margin-top: -33px;
+        margin-right: -157px;
+    }
+
+    #welcome-position {
+        margin-top: 0px;
+        margin-right: -525px;
+    }
+
+    #icon-menu {
+        margin-top: -1px;
     }
 
     .nav>li {
@@ -796,6 +855,58 @@ input[type=text] {
 
     .navbar-default .navbar-nav>li>a {
         padding-top: 3px;
+        margin-left: -800px;
+        margin-right: 430px;
+    }
+
+    #menu-position-1 {
+        display: block;
+        text-align: left;
+        padding: 5px 8px 5px;
+        width: auto;
+        margin-right: 370px;
+        margin-top: -33px;
+        margin-left: 911px;
+        font-family: 'Aileron';
+    }
+
+    #menu-position-2 {
+        display: block;
+        text-align: left;
+        padding: 5px 8px 5px;
+        width: auto;
+        font-family: 'Aileron';
+        margin-top: -33px;
+        margin-right: 195px;
+    }
+
+    #menu-position-3 {
+        display: block;
+        text-align: left;
+        padding: 5px 8px 5px;
+        width: auto;
+        font-family: 'Aileron';
+        margin-top: -33px;
+        margin-right: 14px;
+    }
+
+    #menu-position-4 {
+        display: block;
+        text-align: left;
+        padding: 5px 8px 5px;
+        width: auto;
+        font-family: 'Aileron';
+        margin-top: -33px;
+        margin-right: -176px;
+    }
+
+    #welcome-position {
+        margin-top: -29px;
+        margin-right: -525px;
+    }
+
+    #icon-menu {
+        margin-top: -30px;
     }
 
     .nav>li {
@@ -1043,12 +1154,21 @@ input[type=text] {
         height: auto;
     }
 
+    .navbar-default .navbar-nav>li>a {
+        padding-top: 3px;
+        margin-left: -800px;
+        margin-right: 430px;
+    }
+
     #menu-position-1 {
         display: block;
         text-align: left;
         padding: 5px 8px 5px;
         width: auto;
-        font-family: 'Aileron-B';
+        margin-right: 367px;
+        margin-top: -33px;
+        margin-left: 1026px;
+        font-family: 'Aileron';
     }
 
     #menu-position-2 {
@@ -1056,7 +1176,9 @@ input[type=text] {
         text-align: left;
         padding: 5px 8px 5px;
         width: auto;
-        font-family: 'Aileron-B';
+        font-family: 'Aileron';
+        margin-top: -33px;
+        margin-right: 148px;
     }
 
     #menu-position-3 {
@@ -1064,7 +1186,9 @@ input[type=text] {
         text-align: left;
         padding: 5px 8px 5px;
         width: auto;
-        font-family: 'Aileron-B';
+        font-family: 'Aileron';
+        margin-top: -33px;
+        margin-right: -12px;
     }
 
     #menu-position-4 {
@@ -1072,7 +1196,43 @@ input[type=text] {
         text-align: left;
         padding: 5px 8px 5px;
         width: auto;
-        font-family: 'Aileron-B';
+        font-family: 'Aileron';
+        margin-top: -33px;
+        margin-right: -194px;
+    }
+
+    .caret {
+        margin-left: 4px;
+    }
+
+    .navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {
+        background-color: #3c3c3c;
+        color: #fff;
+    }
+
+    #dropdown-1 {
+        left: -813px;
+    }
+
+    #dropdown-2 {
+        left: -817px;
+    }
+
+    #dropdown-3 {
+        left: -814px;
+    }
+
+    #dropdown-4 {
+        left: -814px;
+    }
+
+    #welcome-position {
+        margin-top: -29px;
+        margin-right: -525px;
+    }
+
+    #icon-menu {
+        margin-top: -30px;
     }
 
     .nav>li {
@@ -1335,7 +1495,7 @@ input[type=text] {
     }
 
     .t-title-details {
-        margin-top: 78px;
+        margin-top: 96px;
     }
 
     #d_section_3 {
