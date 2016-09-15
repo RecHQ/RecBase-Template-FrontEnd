@@ -163,7 +163,7 @@ a:focus {
 
 #j_section_2 {
     height: auto;
-    margin-top: -198px;
+    margin-top: -268px;
 }
 
 #main-content {
@@ -476,7 +476,7 @@ hr {
 #search-box {
     margin-left: 5px;
     margin-right: 5px;
-    margin-top: 140px;
+    margin-top: 65px;
 }
 
 input[type=text] {
@@ -1154,7 +1154,9 @@ input[type=text] {
         height: auto;
     }
 
-    .navbar-default .navbar-nav>li>a {
+    .navbar-default .navbar-nav>li>a , .navbar-default .navbar-nav>li>a:focus ,
+    .navbar-default .navbar-nav>li>a:hover , .navbar-default .navbar-nav>li>a:active {
+        color: #fff;
         padding-top: 3px;
         margin-left: -800px;
         margin-right: 430px;
@@ -1215,7 +1217,7 @@ input[type=text] {
     }
 
     #dropdown-2 {
-        left: -817px;
+        left: -814px;
     }
 
     #dropdown-3 {
@@ -1239,6 +1241,11 @@ input[type=text] {
         margin-left: 945px;
     }
 
+    ::-webkit-input-placeholder {
+       color: #787978;
+       font-size: 20px;
+    }   
+
     #j_section_2 {
         height: auto;
         margin-top: -198px;
@@ -1256,6 +1263,7 @@ input[type=text] {
         margin-top: 0px;
         height: 273px;
         width: 880px;
+        margin-bottom: -8px;
         padding: 21px 21px 21px 15px;
     }
 
@@ -1385,7 +1393,7 @@ input[type=text] {
 
     #j-icons {
         margin-top: 10px;
-        margin-right: 26px;
+        margin-right: 20px;
         float: right;
         display: -webkit-box;
     }
@@ -1441,8 +1449,13 @@ input[type=text] {
     .j-p-details {
         font-size: 19px;
         margin-right: 20px;
-        margin-top: 70px;
+        margin-top: 44px;
         display: -webkit-inline-box;
+    }
+
+    .j-p-details-last {
+        font-size: 19px;
+        margin-top: 44px;
     }
 
     #j_section_4 {
@@ -1487,7 +1500,7 @@ input[type=text] {
 
     .btn-primary {
         border: none;
-        margin-bottom: 20px;
+        margin-bottom: 30px;
     }
 
     .d-title-details {
@@ -1504,6 +1517,7 @@ input[type=text] {
     }
 
     #d-h1 {
+        margin-top: 10px;
         margin-bottom: -60px;
         text-align: left;
     }
@@ -1513,7 +1527,7 @@ input[type=text] {
     }
 
     input[type=text] {
-        opacity: 0.7;
+        opacity: 0.9;
         width: 880px;
         float: left;
         border: none;
