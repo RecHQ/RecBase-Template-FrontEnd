@@ -1337,7 +1337,7 @@ input[type=text] {
         display: -webkit-box;
         margin-right: -4px;
         margin-bottom: 0px;
-        margin-top: -273px;
+        margin-top: -265px;
         margin-left: 0px;
         float: right;
         width: 276px;
@@ -1393,13 +1393,13 @@ input[type=text] {
 
     #j-icons {
         margin-top: 10px;
-        margin-right: 20px;
+        margin-right: -250px;
         float: right;
         display: -webkit-box;
     }
 
     #d-icons {
-        margin-right: -248px;
+        margin-right: -250px;
         margin-top: 20px;
         float: right;
         display: -webkit-box;
