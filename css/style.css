@@ -1278,8 +1278,8 @@ input[type=text] {
     }
 
     #j-sub-pages {
-        width: 215px;
-        display: -webkit-box;
+        width: 555px;
+        display: flex;
         padding-top: 91px;
         font-size: 17px;
     }
