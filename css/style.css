@@ -1155,6 +1155,17 @@ input[type=text] {
         height: auto;
     }
 
+    #fe-icon {    
+        float: left;
+        margin-top: 13px;
+    }
+
+    #g-icon {
+    margin-top: -26px;
+    float: right;
+    margin-right: 156px;
+    }
+
     .navbar-default .navbar-nav>li>a , .navbar-default .navbar-nav>li>a:focus ,
     .navbar-default .navbar-nav>li>a:hover , .navbar-default .navbar-nav>li>a:active {
         color: #fff;
