@@ -560,12 +560,12 @@ input[type=text] {
     }
 
     #welcome-position {
-        margin-top: 0px;
+        margin-top: 28px;
         margin-right: -525px;
     }
 
     #icon-menu {
-        margin-top: -1px;
+        margin-top: 26px;
     }
 
     .nav>li {
@@ -626,7 +626,7 @@ input[type=text] {
     .sub-bar {
         display: -webkit-box;
         float: left;
-        margin: -85px 0px 0px 178px;
+        margin: -97px 0px 0px 178px;
     }
 
     .a-sub-bar {
@@ -638,7 +638,7 @@ input[type=text] {
     .sub-bar-r {
         display: -webkit-box;
         float: left;
-        margin: -45px 0px 0px 126px;
+        margin: -51px 0px 0px 126px;
     }
 
     .a-sub-bar-r {
@@ -655,16 +655,16 @@ input[type=text] {
 
     #j-leftsub {
         font-size: 17px;
-        margin: -72px 0px 0px 178px;
+        margin: -72px 0px 0px 137px;
     }
 
     #j-leftsub-r {
         font-size: 17px;
-        margin: -31px 0 0px -158px;
+        margin: 22px 0 0px 127px;
     }
 
     #j-leftsub-l {
-        margin: 10px 0 0 -199px;
+        margin: 24px 0 0 134px;
     }
 
     .main-links {
@@ -947,9 +947,9 @@ input[type=text] {
     }
 
     #j-sub-pages {
-        width: 215px;
-        display: -webkit-box;
-        padding-top: 100px;
+        width: 620px;
+        display: flex;
+        padding-top: 91px;
         font-size: 17px;
     }
 
